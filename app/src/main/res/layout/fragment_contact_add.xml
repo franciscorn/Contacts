@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/frag_contact_add_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/title_add_edit_screen"
+        android:text="@string/add_contact"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4" />
+
+    <EditText
+        android:id="@+id/frag_contact_add_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtname"
+        android:inputType="text"
+        android:paddingTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/frag_contact_add_title" />
+
+    <EditText
+        android:id="@+id/frag_contact_add_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtphone"
+        android:inputType="phone"
+        android:paddingTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/frag_contact_add_name" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

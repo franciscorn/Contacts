@@ -1,0 +1,31 @@
+<resources>
+    <!--app-->
+    <string name="app_name">Booklet</string>
+    <string name="developer">Developed by Francisco Junior</string>
+
+    <!--fragment_contact_add-->
+    <string name="add_contact">Add Contact</string>
+    <string name="txtname">Name</string>
+    <string name="txtphone">Phone</string>
+    <string name="edit_contact">Edit Contact</string>
+    <string name="warning_fields">Please fill all fields</string>
+    <string name="contact_saved">Contact Saved</string>
+    <string name="error_saving">Error Saving Contact</string>
+
+    <!--fragment_recycler_item-->
+    <string name="titlecontacts">Contacts</string>
+    <string name="contact_deleted">Contact Deleted</string>
+    <string name="all_contacts_deleted">All Contacts Deleted</string>
+    <string name="click_to_edit_a_contact_swipe_to_delete">Double Click to Edit a Contact! Swipe to delete!</string>
+    <string name="button_add_new_contact">add new Contact</string>
+
+    <!--list_menu-->
+    <string name="delete_all_contacts">Delete All Contacts</string>
+
+    <!--menu_add_contact-->
+    <string name="save">Save</string>
+    <string name="title_add_edit_screen">Add and edit contacts screen</string>
+    <string name="contacts_list">Contacts List</string>
+
+
+</resources>
